@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="utf-8">
+    <title>Solar System</title>
+    <style>
+        html,body,canvas { margin: 0; padding: 0; width: 100%; height: 100%; font-size: 0; }
+        .userInputs {
+            margin-top: -1%;
+        }
+    </style>
+</head>
+<body>
+<script src="babylon.js"></script>
+<canvas id="render-canvas"></canvas>
+<div class="userInputs">
+    <input type="range" min="1" max="1000" value="1" class="slider" id="thetaSlider">
+    <input type="button" value="Toggle Camera" class="toggleCamera" id="toggleCameraButton">
+</div>
+<script src="solar_system.js"></script>
+</body>
+</html>
